@@ -5,17 +5,40 @@ import peopleJSON from './people.json';
 import Header from './Header.jsx';
 import ComponentWithProps from './ComponentWithProps';
 import Person from './Person';
+import MilesAhead from './MilesAhead';
+import Login from './Login';
+import Cars from './Garage';
 
 function App() {
 
   const people = peopleJSON.map(person => <Person name={person.name} occupation={person.occupation} hobby = {person.hobby}/>);
 
+  // return (
+  //   <div className="App">
+  //     { people }
+  //     { <Header/> }
+  //   </div>
+  // );
+
+
   return (
-    <div className="App">
-      { people }
-      { <Header/> }
+    <div>
+    { <Cars/> }
     </div>
   );
+
+  // return (
+  //   <div>
+  //   { <Login/> }
+  //   </div>
+  // );
+
+ 
+  // return (
+  //   <div>
+  //   { <MilesAhead/> }
+  //   </div>
+  // );
 
     // return (
   //   <div>
