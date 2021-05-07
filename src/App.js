@@ -6,10 +6,9 @@ import Home from './UsersExercise/Home';
 import Users from './UsersExercise/Users';
 import Contact from './UsersExercise/Contact';
 import Page404 from './UsersExercise/404';
-import Nav from './UsersExercise/Nav';
+import Navbar from './UsersExercise/Navbar';
 import {BrowserRouter as Router, Route, Switch, useParams} from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -17,7 +16,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
     <Router>
-    <Nav/>
+    <Navbar/>
         <Switch>
         <Route exact path="/">
             <Home/>

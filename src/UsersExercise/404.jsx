@@ -1,5 +1,11 @@
+import { Container } from 'react-bootstrap';
+
 const Page404 = () => {
-    return( <h1> 404: Page not found </h1>);
+    return( 
+    <Container>
+    <h1> 404: Page not found </h1>
+    </Container>
+    );
 }
 
 export default Page404;
