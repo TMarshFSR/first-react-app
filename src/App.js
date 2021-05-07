@@ -8,6 +8,7 @@ import Contact from './UsersExercise/Contact';
 import Page404 from './UsersExercise/404';
 import Nav from './UsersExercise/Nav';
 import {BrowserRouter as Router, Route, Switch, useParams} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 
